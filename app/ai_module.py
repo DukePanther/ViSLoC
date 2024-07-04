@@ -1,6 +1,9 @@
 import openai
+import pathlib
 
-openai.api_key = 'sk-proj-HaLU43DeQXgX28G8sCUrT3BlbkFJIVjIKOq9t1dkrc7EG25u'
+path = print(pathlib.Path(__file__).parent.resolve()) + '\\secret_key.txt'
+file = open(path, "r")
+openai.api_key = file.read()
 
 def get_advice(query):
     response = openai.Completion.create(
