@@ -1,7 +1,8 @@
 import openai
 import pathlib
 
-path = print(pathlib.Path(__file__).parent.resolve()) + '\\secret_key.txt'
+path = str(pathlib.Path(__file__).parent.resolve()) + '\\secret_key.txt'
+print(path)
 file = open(path, "r")
 openai.api_key = file.read()
 
