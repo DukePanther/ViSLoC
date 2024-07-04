@@ -1,3 +1,4 @@
+0) Maak een file app\secret_key.txt en zet de key daarin!
 1) Open terminal in deze map
 2) set FLASK_APP=app.main
 3) Typ 'venv\Scripts\activate'
