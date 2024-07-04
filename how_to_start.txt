@@ -1,3 +1,4 @@
 1) Open terminal in deze map
-2) Typ 'venv\Scripts\activate
-3) Typ flask run
+2) set FLASK_APP=app.main
+3) Typ 'venv\Scripts\activate'
+4) Typ flask run
