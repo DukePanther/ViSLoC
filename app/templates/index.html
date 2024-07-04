@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Virtual Study Career Coach</title>
+</head>
+<body>
+    <h1>Ask the Study Career Coach</h1>
+    <form action="/query" method="post">
+        <label for="query">Query:</label>
+        <input type="text" id="query" name="query">
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Generate Study Plan</h2>
+    <form action="/study_plan" method="post">
+        <label for="history">Study History:</label>
+        <textarea id="history" name="history"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
